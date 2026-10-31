@@ -86,8 +86,7 @@ def kmc_run_fluor(syst):
   time           = 0 
   position_fluor = np.array([0,0,0])
   time_fluor     = 0
-  
-  
+
   
   MSD         = []
   T           = []

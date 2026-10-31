@@ -12,7 +12,6 @@ import lattice
 # calculate distances
 #adjancency matrix: a[i,j] = dist(r_i,r_j) = | r_j-r_i |
 
-
 def dist_sites(L,PBC,coord_i,coord_j):
   diff =  np.array(coord_j)-np.array(coord_i)
   for i in range(3):
